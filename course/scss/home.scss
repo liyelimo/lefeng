@@ -1,0 +1,241 @@
+@import "./main.scss";
+
+.type{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+        .header{
+            .commonHeader{
+                @include flexBox;
+                @include flex-direction("row");
+                text-align: center;
+                .title{
+                    width: 70%;
+                    span{
+                        display: block;
+                        width:100%;
+                        height: 30px;
+                        line-height: 30px;
+                        border: 1px solid #ccc;
+                    }
+                    input{
+                        text-indent: 12px;
+                    }
+                }
+                .console{
+                    width: 50px;
+                    height: 30px;
+                    line-height: 30px;
+                   border: 1px solid red;
+                   margin: auto 5px auto 0;
+                   color: red;
+                }
+                
+            }
+        }
+        .content{
+            position: relative;
+            flex: 1;
+                .swiper-container{   
+                    width: 100%;
+                    height: 100px;
+                    
+                    img{
+                        width: 100%;
+                        height: 100px;
+                    }
+                }
+                .fourball{
+                    width: 100%;
+                    height: 84px;
+                    border-bottom: 1px solid #eee;
+                    @include flexBox;
+                    @include flex-center;
+                    @include flex-direction("row");
+                    div{
+                        @include flex(1);
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .freshman{
+                    width: 100%;
+                    height: 150px;
+                    margin: 5px auto;
+                    background-color: #ddd;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .guohuo{
+                    width: 100%;
+                    height: 386px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .wangpai{
+                    width: 100%;
+                    height: 114px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .jx1,.jx2,.jx3,.jx4{
+                    width: 100%;
+                    height: 89px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .jimei{  
+                     margin: 10px auto;
+                      border-bottom: 10px solid #eee;
+                   .swiper-container{   
+                        width: 100%;
+                        height: 90px;
+                       
+                   .swiper-slide {
+                        text-align: center;
+                        margin-left: 10px;    
+                     }
+                    }
+                }
+                .fenggou{
+                    width: 90%;
+                    height:130px ;
+                    margin: 5%;
+                   
+                    
+                    img{
+                       display: block;
+                        width: 90%;
+                        height: 100%;
+                        
+                    }
+                }
+                .gbtitle{
+                    width: 100%;
+                    height: 30px;
+                    background-color: #eee;
+                    color:#ccc;
+                    text-align: center;
+                    line-height: 30px;
+                    
+                }
+                .global{
+                    width: 100%;
+                    height: 88px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                #xiongmao{
+                    width: 100%;
+                    height: 214px;
+                    .swiper-wrapper{
+                        width: 100%;
+                        height:100% ;
+                        .swiper-slide{
+                            .xmone{
+                                width: 100%;                        
+                                    img{
+                                        display: block;
+                                        width:33%;
+                                        float: left;
+                                        
+                                    }
+                                    
+                              
+                               
+
+                           
+                            }
+                        }
+                    }
+                }
+          .brtitle{
+                    width: 100%;
+                    height: 30px;
+                    background-color: #eee;
+                    color:#ccc;
+                    text-align: center;
+                    line-height: 30px;
+                    
+                }
+                .brand{
+                    width: 100%;
+                    height: 141px;
+                    img{
+                        width: 100%;
+                    }
+                    div{
+                        font-size: 14px;
+                        line-height: 20px;
+                        }
+                }
+                .brball{
+                    width: 100%;
+                    height:94px ;
+                    @include flexBox;
+                    @include flex-center;
+                    @include flex-direction("row");
+                    div{
+                        width: 20%;
+                        height: 90%;
+                        padding: 5%;
+                        img{
+                            width: 100%;
+                            height: 90%;
+                        }
+                        p{
+                            width: 100%;
+                            height: 10%;
+                        }
+                    }
+                }
+                .searchword{
+                    width: 61%;
+                    position: absolute;
+                    top:-15px;
+                    left: 4%;
+                    border:1px solid #f00;
+                    display: none;
+                    li{
+                        width: 100%;
+                        height: 20px;
+                        text-align: center;
+                        line-height: 20px;
+                        background-color: #ccc;
+                        opacity: .8;
+                        border-bottom: 1px solid #f00;
+                    }
+                }
+                .searchtitle{
+                    width: 90%;
+                    height: 20px;
+                    padding-left: 10%;
+                }
+                .hotword{
+                    width: 100%;
+                  
+                    .active{
+                        
+                        float: left;
+                        width: 24%;
+                        line-height: 30px;
+                        text-align: center;
+                        color: red;
+                        border: 1px solid #ff0;
+                    }
+                }
+                
+        }
+        
+    
+}
+
+    
+  
